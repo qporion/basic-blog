@@ -1,0 +1,27 @@
+
+
+db.article.insert({titre:"Nano Fiction 5", date:"2018-03-16", auteur:"@nanofictions", contenu:" Ce jeune pictogramme rêvait de travailler dans un aéroport. Il s'imaginait bien sur un panneau indiquant un escalator, ou une boutique duty free, ou encore le contrôle des bagages. Mais la concurrence était rude, et il termina sur la porte des toilettes pour hommes.", resume:"le picto"})
+
+db.article.insert({titre:"Nano Fiction 6", date:"2018-03-17", auteur:"@nanofictions", contenu:" Passionnée de biologie, elle apprit un jour que les koalas possédaient des empreintes digitales quasiment identiques à celles des humains. Elle en adopta un, et commença à l'emmener systématiquement au travail avec elle. Elle était cambrioleuse..", resume:"100 ans"})
+
+db.article.insert({titre:"Nano Fiction 7", date:"2018-03-18", auteur:"@nanofictions", contenu:" Les mouches ont une espérance de vie de 3 semaines. Dans cette maison, elles se passaient de génération en génération l'histoire de ce monstre géant et immortel qui essayait de les saisir au vol depuis des temps immémoriaux. Il s'appelait Cookie, c'était un chat âgé de 6 ans.", resume:"mouches"})
+
+db.article.insert({titre:"Nano Fiction 8", date:"2018-03-18", auteur:"@nanofictions", contenu:" Ce centaure et cette sirène s'étaient rencontrés sur un site réservé aux créatures mythologiques, et ils eurent deux enfants ensemble : une humaine, et un hippocampe..", resume:"Mythes"})
+
+
+
+db.article.insert({titre:"Nano Fiction 9", date:"2018-05-16", auteur:"Baud", contenu:" Ce puissant sorcier enferma ses ennemis dans des boites invisibles, et pour servir d'exemple, il les exposa sur les places des grandes villes dans des tenues ridicules. Ce qu'il n'avait pas prevu, cependant, c'est que les gens les prendraient pour des mimes.", resume:"Sorcier"})
+db.article.insert({titre:"Nano Fiction 10", date: "2018-05-22", auteur: "Nano Fiction" contenu: "Quand les humains arrivèrent sur l'île, les oiseaux tinrent un conseil de crise : - Nos frères et soeurs du continent nous ont mis en garde contre ces bipèdes. Il faut s'en méfier. - Nous avons déjà connu pire menace, répondit le plus gros. Il ne nous arrivera rien, foi de dodo.", resume:"Dodo"})
+db.article.insert ({titre:"Petite fiction", date: "2018-05-24", auteur: "Baud" contenu: "- Bonjour Madame, police du réel. Nous vous observons depuis un petit moment, et vous avez déjà enfreint plusieurs lois physiques. Vous vous rendez compte de la gravité de la situation ? - J'emmerde la gravité, répondit-elle. Et elle s'enfuit en volant.", resume: "gravité"})
+db.article.insert ({titre:"-Nano Fiction 11", date: "2018-05-26", auteur: "Baud" contenu:" Il avait un sablier à la place du coeur, qui égrenait doucement le temps qu'il lui restait. A la fin de sa vie, il commença a marcher sur les mains pour inverser le processus. Et il put tout recommencer, la tête en bas.", resume:"sablier"})
+db.article.insert ({titre:"-Nano Fiction 12", date: "2018-06-01", auteur:"Q.Porion", contenu:" - La forêt des 1000 statues est un endroit maudit, annonça le gardien. Es-tu sûr de vouloir y entrer ? - Oui, répondit l'aventurier. Il n'avait pas fait 100 pas qu'un ancien sortilège le pétrifia sur place. D'un air blasé, le gardien sortit un carnet, et il nota : "1001"." })
+db.article.insert ({titre:"-Nano Fiction 13", date: "2018-06-04", auteur:"Q.Porion", contenu: " Tout le monde était inscrit à la loterie dès l'âge de 18 ans. Chaque année, la personne tirée au sort était traitée comme une divinité, et tous ses désirs étaient comblés. Mais son règne commençait toujours par la même épreuve : il fallait tuer la divinité de l'année précédente."})
+db.article.insert ({titre:"-Nano Fiction 14", date: "2018-06-05", auteur:"Baud", contenu: " Quand les gens jetaient des pièces dans les fontaines et les lieux sacrés, ils ignoraient que leur argent devenait la monnaie des esprits. Si ces derniers s'efforçaient d'exaucer les voeux, c'est parce qu'ils dépendaient des touristes pour payer leur loyer dans l'au-delà."})
+db.article.insert ({titre:"-Nano Fiction 15", date: "2018-06-07", auteur:"Q.Porion", contenu: " Cette intelligence artificielle avait été programmée pour pirater n'importe quel site. Elle était si performante qu'elle avait fini par développer de l'orgueil. C'était sa limite : quand il fallait s'identifier, elle était incapable de cliquer sur "je ne suis pas un robot"."})
+db.article.insert ({titre:"-Nano Fiction 16", date: "2018-06-20", auteur:"Baud", contenu:" Cette machine était capable de prendre des photos du futur. Les deux techniciens braquèrent l'objectif sur une grande ville, et ils obtinrent l'image d'un désert.- Wow. Tu l'as réglée sur 10000 ans en avant ? Demanda le premier. - Non, répondit l'autre, livide. Sur 10."})
+db.article.insert ({titre:"-Nano Fiction 17", date: "2018-06-22", auteur:"Q.Porion", contenu:" Un jour, la Lune commença a se lézarder. Ce sont d'abord les astronomes qui remarquèrent quelques craquelures, puis le monde entier put les observer à l'oeil nu. Au bout d'une semaine, il fallut se rendre a l'évidence : la Lune était un oeuf, et elle était sur le point d'éclore."})
+
+
+
+
+

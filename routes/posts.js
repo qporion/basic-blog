@@ -21,7 +21,7 @@ module.exports = function(app) {
     }
 
     var article = { titre: req.body.titre, auteur: req.body.auteur, contenu: req.body.contenu, date: strDate};
-    app.db.collection("articles").insertOne(article, function(err, res) {
+    app.db.collection("article").insertOne(article, function(err, res) {
       if (err) throw err;
       console.log("1 article inserted");
     });
@@ -30,15 +30,16 @@ module.exports = function(app) {
 
   app.get("/post/remove", function(req, res) {
     if (req.query.id != null) {
-      app.db.collection("articles").remove({"_id": new ObjectId(req.query.id)}, function(err, result) {
+      app.db.collection("article").remove({"_id": new ObjectId(req.query.id)}, function(err, result) {
         if (err) throw err;
         res.redirect('/');
       });
     }
+    //
   });
 
   app.get("/post/:id", function(req, res) {
-    app.db.collection("articles").findOne({"_id": new ObjectId(req.params.id)}, function(err, result) {
+    app.db.collection("article").findOne({"_id": new ObjectId(req.params.id)}, function(err, result) {
       if (err) throw err;
       res.render("view", {"data": result});
     });

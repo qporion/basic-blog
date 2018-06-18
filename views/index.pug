@@ -16,7 +16,7 @@ body.bg-light
               h5.col #{article.titre}
               p.text-right #{article.date}
             div.card-body
-              p.card-text #{article.contenu}
+              p.card-text #{article.resume}
               p.text-right Auteur : #{article.auteur}
           a(href="post/remove?id="+article._id) Supprimer
         if (idx+1)%2 == 0
