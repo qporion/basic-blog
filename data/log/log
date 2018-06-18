@@ -1,0 +1,18 @@
+2018-06-04T06:28:09.392-0400 I CONTROL  [initandlisten] MongoDB starting : pid=3002 port=27017 dbpath=data/db 64-bit host=iutbox
+2018-06-04T06:28:09.392-0400 I CONTROL  [initandlisten] db version v3.4.11
+2018-06-04T06:28:09.392-0400 I CONTROL  [initandlisten] git version: 34f5bec2c9d827d71828fe858167f89a28b29a2a
+2018-06-04T06:28:09.392-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0f-fips  25 May 2017
+2018-06-04T06:28:09.392-0400 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-06-04T06:28:09.392-0400 I CONTROL  [initandlisten] modules: none
+2018-06-04T06:28:09.392-0400 I CONTROL  [initandlisten] build environment:
+2018-06-04T06:28:09.392-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-04T06:28:09.392-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-04T06:28:09.392-0400 I CONTROL  [initandlisten] options: { storage: { dbPath: "data/db", mmapv1: { smallFiles: true } }, systemLog: { destination: "file", path: "data/log/log" } }
+2018-06-04T06:28:09.445-0400 E NETWORK  [initandlisten] listen(): bind() failed Address already in use for socket: 0.0.0.0:27017
+2018-06-04T06:28:09.445-0400 E NETWORK  [initandlisten]   addr already in use
+2018-06-04T06:28:09.445-0400 E NETWORK  [initandlisten] Failed to set up sockets during startup.
+2018-06-04T06:28:09.445-0400 E STORAGE  [initandlisten] Failed to set up listener: InternalError: Failed to set up sockets
+2018-06-04T06:28:09.445-0400 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2018-06-04T06:28:09.445-0400 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2018-06-04T06:28:09.445-0400 I CONTROL  [initandlisten] now exiting
+2018-06-04T06:28:09.445-0400 I CONTROL  [initandlisten] shutting down with code:48

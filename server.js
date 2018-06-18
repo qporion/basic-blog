@@ -2,15 +2,22 @@ var express = require("express");
 var MongoClient = require("mongodb");
 var bodyParser = require('body-parser')
 var cons = require('consolidate');
+var path = require('path');
 
 var app = express();
-var url = process.env.URL || "REPLACEME";
-var dbName = process.env.DBNAME || "REPLACEME";
-var port = process.env.PORT || 8000;
+var url = process.env.URL || "mongodb://localhost";
+var dbName = process.env.DBNAME || "article";
+var port = process.env.PORT || 8080;
 
-app.engine('html', cons.pug);
-app.set('view engine', 'html');
+app.engine('pug', cons.pug);
+app.set('view engine', 'pug');
 app.set('views',  __dirname +  '/views')
+app.use('/bootstrap', express.static(__dirname + '/views/bootstrap'));
+app.use('/css', express.static(__dirname + '/views/css'));
+app.use( bodyParser.json() );       // to support JSON-encoded bodies
+app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
+  extended: true
+})); 
 
 var routes = require("./routes");
 

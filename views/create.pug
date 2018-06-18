@@ -1,0 +1,21 @@
+doctype html
+head
+  title Blog Cool
+  script(type="text/javascript", src="../bootstrap/js/bootstrap.min.js")
+  link(rel="stylesheet", href="../bootstrap/css/bootstrap.min.css")
+  
+body.bg-light
+  include header.pug
+  div.container.mt-5
+    form(method='POST')
+      div.form-group
+        label(for='titre') Titre:
+        input#titre.form-control(type='text', placeholder='Titre' name='titre')
+      div.form-group
+        label(for='auteur') Auteur:
+        input#auteur.form-control(type='text', placeholder='Auteur' name='auteur')
+      div.form-group
+        label(for='contenu') Contenu:
+        input#contenu.form-control(type='text', placeholder='Contenu' name='contenu')
+      button.btn.btn-primary(type='submit') Ajouter
+  include footer.pug

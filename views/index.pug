@@ -1,0 +1,24 @@
+doctype html
+head
+  title Blog Cool
+  script(type="text/javascript", src="bootstrap/js/bootstrap.min.js")
+  link(rel="stylesheet", href="bootstrap/css/bootstrap.min.css")
+  link(rel="stylesheet", href="css/style.css")
+  
+body.bg-light
+  include header.pug
+  div.container
+    div.row
+      each article, idx in data
+        div.col.m-3.card.container
+          a(href="post/"+article._id)
+            div.card-header.row
+              h5.col #{article.titre}
+              p.text-right #{article.date}
+            div.card-body
+              p.card-text #{article.contenu}
+              p.text-right Auteur : #{article.auteur}
+          a(href="post/remove?id="+article._id) Supprimer
+        if (idx+1)%2 == 0
+          div.w-100
+  include footer.pug
