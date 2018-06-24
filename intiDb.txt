@@ -1,15 +1,9 @@
-
+use articles;
 
 db.article.insert({titre:"Nano Fiction 5", date:"2018-03-16", auteur:"@nanofictions", contenu:" Ce jeune pictogramme rêvait de travailler dans un aéroport. Il s'imaginait bien sur un panneau indiquant un escalator, ou une boutique duty free, ou encore le contrôle des bagages. Mais la concurrence était rude, et il termina sur la porte des toilettes pour hommes.", resume:"le picto"})
-
 db.article.insert({titre:"Nano Fiction 6", date:"2018-03-17", auteur:"@nanofictions", contenu:" Passionnée de biologie, elle apprit un jour que les koalas possédaient des empreintes digitales quasiment identiques à celles des humains. Elle en adopta un, et commença à l'emmener systématiquement au travail avec elle. Elle était cambrioleuse..", resume:"100 ans"})
-
 db.article.insert({titre:"Nano Fiction 7", date:"2018-03-18", auteur:"@nanofictions", contenu:" Les mouches ont une espérance de vie de 3 semaines. Dans cette maison, elles se passaient de génération en génération l'histoire de ce monstre géant et immortel qui essayait de les saisir au vol depuis des temps immémoriaux. Il s'appelait Cookie, c'était un chat âgé de 6 ans.", resume:"mouches"})
-
 db.article.insert({titre:"Nano Fiction 8", date:"2018-03-18", auteur:"@nanofictions", contenu:" Ce centaure et cette sirène s'étaient rencontrés sur un site réservé aux créatures mythologiques, et ils eurent deux enfants ensemble : une humaine, et un hippocampe..", resume:"Mythes"})
-
-
-
 db.article.insert({titre:"Nano Fiction 9", date:"2018-05-16", auteur:"Baud", contenu:" Ce puissant sorcier enferma ses ennemis dans des boites invisibles, et pour servir d'exemple, il les exposa sur les places des grandes villes dans des tenues ridicules. Ce qu'il n'avait pas prevu, cependant, c'est que les gens les prendraient pour des mimes.", resume:"Sorcier"})
 db.article.insert({titre:"Nano Fiction 10", date: "2018-05-22", auteur: "Nano Fiction" contenu: "Quand les humains arrivèrent sur l'île, les oiseaux tinrent un conseil de crise : - Nos frères et soeurs du continent nous ont mis en garde contre ces bipèdes. Il faut s'en méfier. - Nous avons déjà connu pire menace, répondit le plus gros. Il ne nous arrivera rien, foi de dodo.", resume:"Dodo"})
 db.article.insert ({titre:"Petite fiction", date: "2018-05-24", auteur: "Baud" contenu: "- Bonjour Madame, police du réel. Nous vous observons depuis un petit moment, et vous avez déjà enfreint plusieurs lois physiques. Vous vous rendez compte de la gravité de la situation ? - J'emmerde la gravité, répondit-elle. Et elle s'enfuit en volant.", resume: "gravité"})
