@@ -18,7 +18,7 @@ describe("test blog posts endpoint", function() {
         .set("User-Agent", "API testing")
         .expect(function(res) {
           console.log(res.text);
-          assert(res.text.search("<form>.*</form>") != -1);
+          assert(res.text.search("<form method=\"POST\">.*</form>") != -1);
         })
         .expect(200)
         .end(done);

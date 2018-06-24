@@ -6,7 +6,7 @@ var path = require('path');
 
 var app = express();
 var url = process.env.URL || "mongodb://localhost";
-var dbName = process.env.DBNAME || "article";
+var dbName = process.env.DBNAME || "articles";
 var port = process.env.PORT || 8080;
 
 app.engine('pug', cons.pug);

@@ -1,10 +1,12 @@
 var ObjectId = require('mongodb').ObjectID;
 
 module.exports = function(app) {
+  //On utilise le verbe HTTP GET
   app.get("/post/create", function(req, res) {
     res.render("create");
   });
 
+  //On utilise le verbe HTTP POST
   app.post("/post/create", function(req, res) {
     var date = new Date();
     var strDate = date.getFullYear()+"-";
@@ -34,8 +36,9 @@ module.exports = function(app) {
         if (err) throw err;
         res.redirect('/');
       });
+    } else {
+      res.redirect('/');
     }
-    //
   });
 
   app.get("/post/:id", function(req, res) {
